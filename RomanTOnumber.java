@@ -63,8 +63,8 @@ public class roman
                int b=value(str.charAt(i+1));
                if(a >= b )
                {
-                   result =result + a + b;
-                   i++;
+                   result =result + a;
+                   
 
 
                }
